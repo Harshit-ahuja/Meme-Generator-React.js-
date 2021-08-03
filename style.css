@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    margin: 0;
+    background-color: #80008026;
+}
+
+.header{
+    width: 100vw;
+    height: 15vh;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-image{
+    width: 12%;
+    height: 70%;
+}
+
+.header-text{
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 300%;
+}
+
+.meme{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.gen-btn,
+.text-btn,
+.rmv-btn{
+    width: 140px;
+    height: 35px;
+    color: purple;
+    background-color: white;
+    border: 2px solid purple;
+    font-size: 100%;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.text-color{
+    width: 90px;
+    height: 30px;
+}
+
+.download-btn{
+    width: 150px;
+    height: 35px;
+    color: purple;
+    background-color: white;
+    border: 2px solid purple;
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+#Canvas{
+    border: 5px solid black;
+}
+
+    
